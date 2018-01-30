@@ -1,0 +1,2 @@
+[22-Sep-2012 05:59:39] PHP Warning:  copy(./upload/bh-1.webhostbox.net505d53cb561184.40172205Water lilies.jpg) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/wwwreals/public_html/popup/loadimage.php on line 56
+[22-Sep-2012 10:28:48] PHP Parse error:  syntax error, unexpected $end in /home/wwwreals/public_html/popup/upimage.php on line 130

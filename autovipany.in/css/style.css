@@ -1,0 +1,273 @@
+body {
+	width: 1000px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: black;
+	margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,input,textarea {
+	padding: 0px;
+	margin: 0px;
+}
+
+.main {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.header {
+	background-image: url(../images/top-rept.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	width: 100%;
+	float: left;
+}
+
+.header-dis {
+	width: 100%;
+	height: 220px;
+	float: left;
+}
+
+.header-dis p {
+	text-align: center;
+}
+
+.header-dis a {
+	text-align: center;
+}
+
+.header-top {
+	width: 100%;
+	height: 30px;
+	background-color: #FAFEFF;
+}
+
+.header-top h1 {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 63px;
+	color: #FFFFFF;
+	float: left;
+	padding-left: 0px;
+}
+
+.header-top ul {
+	height: 27px;
+	float: right;
+	list-style-type: none;
+}
+
+.header-top ul li {
+	height: 27px;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.header-top ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	height: 27px;
+	float: left;
+	padding-left: 17px;
+}
+
+.header-top ul li a span {
+	line-height: 27px;
+	display: block;
+	height: 27px;
+	float: left;
+	padding-right: 17px;
+	cursor: pointer;
+}
+
+.header-top ul li a:hover {
+	color: #ffffff;
+	background-color: black;
+}
+
+.header-img {
+	width: 100%;
+	float: left;
+}
+
+.previews {
+	background-color: #FFFFFF;
+	width: 100%;
+	float: left;
+	margin: 0px auto;
+}
+
+.left-out {
+	background-color: #FFFFFF;
+	width: 800px;
+	float: left;
+}
+
+.left-in {
+	width: 100%;
+}
+
+.left-panel {
+	width: 95%;
+	padding: 20px;
+}
+
+.left-panel ul {
+	width: 150px;
+}
+
+.left-panel ul li a {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 27px;
+	color: #333333;
+	text-decoration: none;
+	background-image: url(../images/right-bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: 7px center;
+	text-align: left;
+	display: block;
+	height: 27px;
+	padding-left: 20px;
+}
+
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #438521;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.title span {
+	color: #333333;
+}
+
+.right-out {
+	background-color: #FFFFFF;
+	width: 198px;
+	height: 1200px;
+	float: left;
+	border-left: 1px solid #000000;
+}
+
+.presearch {
+	background-color: #FFFFFF;
+	width: 620px;
+	float: left;
+}
+
+.preview {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin: 0px auto;
+	background-color: #F1F1EF;
+}
+
+a.more {
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+a.more:hover {
+	color: #FFFFFF;
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 35px;
+	float: left;
+}
+
+.textbox {
+	width: 230px;
+	height: 23px;
+	border: 1px solid #209CDC;
+	border-left: 4px solid #209CDC;
+}
+
+.button {
+	background-color: #479D34;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	text-transform:uppercase;
+	padding-bottom: 3px;
+	color: #ffffff;
+	border: 1px solid #479D34;
+	background-image: url(images/button_bg.jpg);
+}
+
+.button:hover {
+	text-transform:uppercase;
+	background-color: #000000;
+	border: 1px solid #000000;
+	background-image: url(images/button_bg_over.jpg);
+}
+
+.select {
+	width: 235px;
+	height: 25px;
+	border: 1px solid #209CDC;
+	border-left: 4px solid #209CDC;
+}
+
+.a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.textarea {
+	width: 230px;
+	height: 60px;
+	border: 1px solid #209CDC;
+	border-left: 4px solid #209CDC;
+}
+
+.true {
+	background: #FFFFFF url(images/search.png) no-repeat 4px 4px;
+}
+
+.pagebar {
+	background-image: url(../images/greenpremiumbck.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+	color: white;
+}
+
+.toplogin {
+	height: 170px;
+	width: 23%;
+	background-color: white;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#homefill a {
+	text-decoration: none;
+}
+#homefilled a {
+	text-decoration: none;
+}
+#searchfill a {
+	text-decoration: none;
+}

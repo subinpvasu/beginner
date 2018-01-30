@@ -1,0 +1,6 @@
+[15-Oct-2012 09:35:07] PHP Fatal error:  Call to undefined function apache_request_headers() in /home/wwwreals/public_html/image/downscript.php on line 7
+[15-Oct-2012 09:37:17] PHP Fatal error:  Call to undefined function apache_request_headers() in /home/wwwreals/public_html/image/downscript.php on line 7
+[15-Oct-2012 09:37:18] PHP Fatal error:  Call to undefined function apache_request_headers() in /home/wwwreals/public_html/image/downscript.php on line 7
+[15-Oct-2012 09:38:08] PHP Fatal error:  Call to undefined function apache_request_headers() in /home/wwwreals/public_html/image/downscript.php on line 7
+[15-Oct-2012 09:38:09] PHP Fatal error:  Call to undefined function apache_request_headers() in /home/wwwreals/public_html/image/downscript.php on line 7
+[15-Oct-2012 09:47:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wwwreals/public_html/image/downscript.php:65) in /home/wwwreals/public_html/image/downscript.php on line 68

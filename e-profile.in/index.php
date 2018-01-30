@@ -1,0 +1,13 @@
+<?php session_start();include_once 'include/myadmin.php';include_once 'include/functions.php';?><!DOCTYPE html><html><head><title>&nbsp;</title><link href="style/style.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="js/javavalidation.js"></script><script type="text/javascript" src="ajax/ajaxvalidation.js"></script><!--<link rel="stylesheet" type="text/css" href="profile_screen.css" /><script type="text/javascript" src="profile_screen.js"></script>--></head><body onload=""><div class="header"><table style="width: 100%">	<tr>		<td style="width: 185px;"><img src="./images/logo.png" /></td>		<td style="width: 180px; text-align: center;"></td>		<td style="width: 589px; vertical-align: bottom;"><?php
+		include_once 'include/signin.php';
+		?></td>	</tr></table></div><div class="header-dis"><!-- use a frme to show dynamic contents regarding --><div style="background-color: #00A9E9;font-weight: bold;color:white;padding:8px 0;"><a href="index.php<?php if(is_numeric($_SESSION['pin'])){echo '?profile';}?>">Home</a><a href="index.php<?php if(!is_numeric($_SESSION['pin'])){echo '?register';}?>">Register Now</a><a href="">Terms and Conditions</a><a href="">Services</a><a href="index.php<?php if(is_numeric($_SESSION['pin'])){echo '?contacts" target="_blank';}else{echo '?contacts';}?>">Contact us</a><?php if(is_numeric($_SESSION['pin'])){echo '<a href="index.php?signoff">logout</a>';}?></div></div><div class="previews" id="static_part"><?php if (is_numeric($_SESSION['pin'])){	include_once 'include/facepage.php';} ?></div><div class="left-out"><div class="left-in"><?php if (is_numeric($_SESSION['pin'])){	include_once 'include/sidemenu.php';} 
+switch ($_SERVER ['QUERY_STRING']) {
+	case 'register' :
+		include_once 'include/register.php';
+		break;	case 'profile' :		include_once 'include/profile.php';		break;
+	case 'signoff' : 		include_once 'include/signout.php';		break;	case 'personal' : 		include_once 'include/regiedit.php';		break;	case 'profes' : 		include_once 'include/testimonial.php';		break;	case 'testim' : 		include_once 'include/mannerism.php';		break;	case 'contacts' : 		include_once 'include/contactus.php';		break;
+	default :
+		echo "<!-- very good -->";
+		break;
+}
+?></div></div><div class="right-out"><!-- for advertisements --></div><div class="preview"><!-- site preferences --></div><div class="footer">Copyright &copy; 2013 Gitacommunications</div><?php include_once 'xmlparse.php';?></body></html>
